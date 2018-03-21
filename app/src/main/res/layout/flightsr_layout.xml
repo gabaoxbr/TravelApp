@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.gabrielgmacedo.travelapp.SignUp_Activity"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="@color/colorPrincipal"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="380dp"
+            android:layout_height="140dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"
+            android:elevation="4dp"
+            app:cardCornerRadius="10dp"
+            >
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp">
+
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dubai,UEA"
+                        android:textColor="@color/colortext"
+                        android:paddingLeft="10dp"
+                        android:textSize="16sp"
+                        android:drawableLeft="@drawable/ic_pin_drop_black2_24dp"
+                        />
+
+                    <TextView
+
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mar,7,2017"
+                        android:textColor="@color/colortext"
+                        android:layout_marginLeft="135dp"
+                        android:textSize="16sp"
+                        android:drawableLeft="@drawable/ic_date_range_black2_24dp"
+
+                        />
+
+                        <TextView
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1 Passenger"
+                            android:textColor="@color/colortext"
+                            android:paddingRight="10dp"
+                            android:textSize="16sp"
+                            android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+
+                            />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp">
+
+
+                        <TextView
+
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="First Class"
+                            android:textColor="@color/colortext"
+                            android:paddingLeft="10dp"
+                            android:textSize="16sp"
+                            android:drawableLeft="@drawable/ic_attach_money_black2_24dp"
+                            />
+
+                        <TextView
+
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="800€"
+                            android:textColor="@color/colortext"
+                            android:layout_marginLeft="135dp"
+                            android:textSize="18sp"
+                            android:drawableLeft="@drawable/ic_credit_card_black_24dp"
+
+                            />
+
+                        <Button
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="15dp"
+                            android:id="@+id/btn"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/button"
+                            android:text="Edit Search"
+                            android:textAllCaps="false"
+                            android:textColor="#fff"
+                            android:textSize="18dp"
+                            />
+
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="390dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:elevation="4dp"
+            android:background="@drawable/logoback"
+            >
+            <ImageView
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hotel"/>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="✩✩✩✩✩"
+                android:textColor="#868A08"
+                android:layout_marginLeft="145dp"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="jumeirah Creekside Hotel"
+                android:textColor="@color/colortext"
+                android:layout_marginLeft="145dp"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:layout_marginTop="49dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Garhoud, Dubai"
+                android:layout_marginLeft="145dp"
+                android:textSize="12sp"
+                />
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="370dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_favorite_border_black_24dp"/>
+
+            <TextView
+                android:layout_marginTop="70dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="800€"
+                android:textColor="@color/colorPrincipal"
+                android:layout_marginLeft="340dp"
+                android:textSize="16sp"
+                />
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="390dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="360dp"
+            android:elevation="4dp"
+            android:background="@drawable/logoback"
+            >
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dusit"/>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="✩✩✩✩"
+                android:textColor="#868A08"
+                android:layout_marginLeft="145dp"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dusit Thani Dubai"
+                android:textColor="@color/colortext"
+                android:layout_marginLeft="145dp"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:layout_marginTop="49dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trade Centre, Dubai"
+                android:layout_marginLeft="145dp"
+                android:textSize="12sp"
+                />
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="370dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_favorite_border_black_24dp"/>
+
+            <TextView
+                android:layout_marginTop="70dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="750,00€"
+                android:textColor="@color/colorPrincipal"
+                android:layout_marginLeft="320dp"
+                android:textSize="16sp"
+                />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="390dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="470dp"
+            android:elevation="4dp"
+            android:background="@drawable/logoback"
+
+            >
+            <ImageView
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/city" />
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="✩✩✩✩"
+                android:textColor="#868A08"
+                android:layout_marginLeft="145dp"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="City Premiere Hotel Apartments"
+                android:textColor="@color/colortext"
+                android:layout_marginLeft="145dp"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:layout_marginTop="49dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trade Centre, Dubai"
+                android:layout_marginLeft="145dp"
+                android:textSize="12sp"
+                />
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="370dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_favorite_border_black_24dp"/>
+
+            <TextView
+                android:layout_marginTop="70dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="750,00€"
+                android:textColor="@color/colorPrincipal"
+                android:layout_marginLeft="320dp"
+                android:textSize="16sp"
+                />
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
+

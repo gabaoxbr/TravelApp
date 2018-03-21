@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/layout">
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imagem"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/homer_icon"
+            android:layout_marginTop="136dp"
+            android:layout_marginLeft="158dp"/>
+
+
+        <TextView
+            android:id="@+id/nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Homer Simpsons"
+            android:paddingLeft="130dp"
+            android:layout_marginTop="10dp"
+           android:layout_below="@+id/imagem"
+            android:textSize="20sp"
+            android:textColor="@color/colortext"
+            />
+        <TextView
+            android:layout_marginTop="16dp"
+            android:paddingLeft="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:layout_toRightOf="@id/nome"
+            android:layout_below="@id/imagem"
+            android:textSize="15sp"
+
+            />
+        <TextView
+            android:paddingLeft="150dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Springfield, EUA"
+            android:layout_below="@+id/nome"
+            android:textSize="15sp"
+
+            />
+
+        <TextView
+            android:layout_marginTop="69dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Private Details"
+            android:layout_below="@+id/nome"
+            android:textSize="20sp"
+            android:textColor="@color/colortext"
+
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="380dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <RelativeLayout
+                android:background="#c0d6da"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:paddingLeft="10dp"
+                    android:textSize="19sp"
+                    />
+
+                <TextView
+                   android:layout_alignParentEnd="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="homer2010@gmail.com"
+                    android:paddingLeft="10dp"
+                    android:textSize="19sp"
+                    android:textColor="@color/colorPrincipal"
+                    />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:background="#c0d6da"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+
+                <TextView
+
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Password"
+                    android:paddingLeft="10dp"
+                    android:textSize="19sp"
+                    />
+
+                <TextView
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="XXXXXXXXXXXXX"
+                    android:inputType="textPassword"
+                    android:paddingLeft="10dp"
+                    android:textSize="19sp"
+                    android:textColor="@color/colorPrincipal"
+                    />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:background="#c0d6da"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+
+                <TextView
+
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Grander"
+                    android:paddingLeft="10dp"
+                    android:textSize="19sp"
+                    />
+
+                <TextView
+                    android:id="@+id/grander"
+                   android:layout_marginLeft="130dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:paddingLeft="10dp"
+                    android:textSize="19sp"
+                    android:textColor="@color/colorPrincipal"
+                    />
+
+                <TextView
+                    android:id="@+id/age"
+                    android:layout_toRightOf="@+id/grander"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Age"
+                    android:paddingLeft="10dp"
+                    android:textSize="19sp"
+
+                    />
+
+                <TextView
+                    android:paddingRight="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="21"
+                    android:paddingLeft="10dp"
+                    android:textSize="19sp"
+                    android:textColor="@color/colorPrincipal"
+
+                    />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:background="#c0d6da"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+
+                <TextView
+
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone number"
+                    android:paddingLeft="10dp"
+                    android:textSize="19sp"
+                    />
+
+                <TextView
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+20 01067836134"
+                    android:paddingLeft="10dp"
+                    android:textSize="19sp"
+                    android:textColor="@color/colorPrincipal"
+                    />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>
